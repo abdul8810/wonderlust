@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container{
+    flex: 1;
+}
+ .navbar{
+    height: 4.3rem;
+    background-color: white;
+ }
+ .fa-compass{
+    font-size: 2rem;
+    color: #fe424d;
+ }
+ .nav-link{
+    color: #222222 !important;
+ }
+ .f-footer-info{
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    flex-wrap: wrap;
+    background-color: #ededed;
+    align-items: space-evenly;
+    text-align: center;
+
+}
+.fa-links,
+.fa-social,
+.f-info-brand{
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.fa-links a{
+    text-decoration: none;
+    color: black;
+}
+.fa-links a:hover{
+    text-decoration: underline;
+}
+.fa-social i{
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+/* card */
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+
+}
+ .add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+ }
+ .show-img{
+    height: 40vh;
+ }
+ .btns{
+    display: flex;
+ }
