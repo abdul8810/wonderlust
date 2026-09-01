@@ -91,10 +91,7 @@ app.use("/listing/:id/reviews",reviews)
 app.use("/listing",listings)
 app.use("/",user)
   // Home routes
-  app.get("/",(req,res)=>{
-    res.send("this is the main site");
-  })
-
+ 
   app.all(/.*/,(req,res,next)=>{
     next(new ExpressError(404,"Page not found"))
   })
